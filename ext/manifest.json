@@ -1,0 +1,16 @@
+{
+	"manifest_version": 3,
+	"name": "dfvd",
+	"version": "0.1.0",
+	"host_permissions": [
+		"https://*.darkfans.com/posts/*",
+		"http://localhost:9987/*"
+	],
+	"permissions": [
+		"tabs"
+	],
+	"devtools_page": "devtool.html",
+	"background": {
+		"service_worker": "sw.js"
+	}
+}
